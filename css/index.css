@@ -134,3 +134,23 @@ html,
 body {
   height: 100%;
 }
+.container {
+  display: flex;
+  margin: 0 auto;
+  height: 100%;
+  justify-content: center;
+  border: 1px solid red;
+  flex-wrap: wrap;
+}
+img {
+  width: 198px;
+  height: 264px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+.intro {
+  border: 1px solid red;
+}
