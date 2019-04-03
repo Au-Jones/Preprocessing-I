@@ -133,24 +133,41 @@ table {
 html,
 body {
   height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 .container {
   display: flex;
   margin: 0 auto;
-  height: 100%;
   justify-content: center;
-  border: 1px solid red;
   flex-wrap: wrap;
+  border: 1px solid red;
 }
 img {
   width: 198px;
   height: 264px;
+  margin: 53px;
+  border-radius: 10px;
 }
 header nav {
   display: flex;
   justify-content: space-between;
-  border: 1px solid blue;
 }
-.intro {
+.intro button {
   border: 1px solid red;
+  width: 140px;
+  height: 45px;
+  border-radius: 15px;
+}
+p {
+  margin: 15px;
 }
