@@ -85,50 +85,58 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-.container{
-.cont();
-border: 1px solid red;
-width:876;
-}
-img{
-	width:@width;
-	height:@height;
-	margin: 53px;
-	border-radius:10px;
-}
-header nav{
-	.navigation();
+
+
+@media(max-width:500px){
+	p{
+		margin:15px;
 	
-}
-.intro button{
-	border:1px solid red;
-	width:140px;
-	height:45px;
-	border-radius: 15px;
-	background-color: white;
-}
-
-.intro{
-	background-color:silver;
-}
-
-p{
-	margin:15px;
-
-}
-.midd-content{
-	.cont();
-}
-ul{
-	display:flex;
-	align-content:column;
+	}
+	.midd-content{
+		.cont();
+	}
+	ul{
+		display:flex;
+		align-content:column;
+		
+	}
 	
+	.about-me p{
+		display:flex;
+		width:580px;
+		margin: 25px;
+		padding:35px;
+	}
+	.container{
+		.cont();
+		border: 1px solid red;
+		width:876;
+		}
+		
+		nav{
+			.navigation();
+			
+		
+		
+		.intro{
+			background-color:silver;
+		.intro button{
+			border:1px solid red;
+			width:140px;
+			height:45px;
+			border-radius: 15px;
+			background-color: white;
+			 img{
+				width:@width;
+				height:@height;
+				margin: 53px;
+				border-radius:10px;
+				}
+				
+			}
+		}
 }
-.about-me p{
-	display:flex;
-	width:580px;
-	margin: 25px;
-	padding:35px;
-}
+	
+
 
 
